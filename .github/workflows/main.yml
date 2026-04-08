@@ -22,7 +22,7 @@ jobs:
     - name: Build DNS-Server
       run: pyinstaller DNS-Server.spec
     - name: Publish Build Artifacts
-      uses: actions/upload-artifact@7
+      uses: actions/upload-artifact@v7
       with:
         name: ${{ matrix.os }}
         path: dist
