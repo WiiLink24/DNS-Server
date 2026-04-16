@@ -2,6 +2,7 @@
 178.62.43.212 nas.nintendowifi.net
 95.217.77.151 available.gs.nintendowifi.net
 95.217.77.181 master.gs.nintendowifi.net
+95.217.77.151 gpcm.gs.nintendowifi.net
 195.201.236.139 peerchat.gs.nintendowifi.net
 20.104.25.104 pkgdsprod.nintendo.co.jp
 178.62.43.212 pkvldtprod.nintendo.co.jp
