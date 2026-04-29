@@ -53,12 +53,24 @@ Once it's done installing, run:
 
 # Setting up Pi-hole
 
+## Pi-hole v5 and below
 On the server running Pi-hole, run the following command:
 
 ```bash
 curl https://raw.githubusercontent.com/WiiLink24/DNS-Server/master/dns_zones-hosts.txt >> /etc/pihole/custom.list
 ```
 WiiLink domains will be listed on Pi-hole webpage menu under "Local DNS Records".
+
+## Pi-hole v6
+On a device that can access the Pi-hole server, download the "pihole6-setup.py" file.
+
+Install the requests library (`pip install requests`) and run the file with the url to your server as an argument (with ports; typically port 80 or 443):
+
+```bash
+python3 pihole6-setup.py <SERVER URL>
+```
+
+It will then ask for your server password so it can access its API to add the hosts. Once done, hosts should be added automatically.
 
 # Need more help?
 You can talk to us over on our [Discord server](https://discord.gg/wiilink), where people can try and help you out!
